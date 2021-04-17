@@ -1,0 +1,75 @@
+ol ul {
+  list-style: none;
+}
+#navelemnets {
+  margin: 40px;
+}
+a {
+  text-decoration: none;
+}
+li {
+  display: block;
+  padding: 20px;
+  width: 20px;
+  height: 20px;
+  float: right;
+  margin-right: 20px;
+}
+
+.logomebe {
+  display: flex;
+  flex-direction: row;
+}
+
+.mebe {
+  text-align: left;
+}
+
+body {
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.column {
+  margin-top: 15px;
+}
+div .black {
+  position: absolute;
+  width: 70%;
+  height: 700px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+}
+.black .para {
+  padding: 70px;
+  margin: 40px;
+}
+.black .para {
+  color: white;
+}
+.photo {
+  top: -703.9px;
+}
+
+.photo .firstimg {
+  display: flex;
+  width: 30%;
+  height: 700px;
+  right: -150px;
+  float: right;
+}
+.photo .hoveroff {
+  position: absolute;
+  width: 30%;
+  height: 700px;
+  display: none;
+  top: 113px;
+  left: 70%;
+}
+.photo:hover .hoveroff {
+  display: inline;
+}
+.para {
+  margin: 40px;
+}
