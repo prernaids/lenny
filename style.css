@@ -41,6 +41,9 @@ div .black {
   color: #fff;
   text-align: center;
 }
+.black .name {
+  margin-top: 80px;
+}
 .black .para {
   padding: 70px;
   margin: 41px;
@@ -69,7 +72,4 @@ div .black {
 }
 .photo:hover .hoveroff {
   display: inline;
-}
-.para {
-  margin: 40px;
 }
