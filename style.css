@@ -53,6 +53,7 @@ div .black {
 }
 .photo {
   top: -703.9px;
+   transition: all 1s
 }
 
 .photo .firstimg {
@@ -61,15 +62,21 @@ div .black {
   height: 700px;
   right: -150px;
   float: right;
+
 }
+
 .photo .hoveroff {
   position: absolute;
   width: 30%;
   height: 700px;
-  display: none;
+  display: block;
   top: 113px;
   left: 70%;
+  opacity: 0;
+  transition: all 1s;
+
 }
 .photo:hover .hoveroff {
-  display: inline;
+  
+  opacity: 1
 }
