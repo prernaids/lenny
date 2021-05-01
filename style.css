@@ -19,6 +19,7 @@ li {
 .logomebe {
   display: flex;
   flex-direction: row;
+  
 }
 
 .mebe {
@@ -28,6 +29,7 @@ li {
 body {
   margin: 0px;
   font-family: "Poppins", sans-serif;
+  
 }
 
 .column {
