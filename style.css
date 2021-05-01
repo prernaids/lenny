@@ -1,7 +1,7 @@
 ol ul {
   list-style: none;
 }
-#navelemnets {
+.navelemnets {
   margin: 40px;
 }
 a {
@@ -39,7 +39,7 @@ div .black {
   position: absolute;
   width: 70%;
   height: 700px;
-  background-color: black;
+  background-color: rgb(32, 32, 32);
   color: #fff;
   text-align: center;
 }
@@ -79,6 +79,5 @@ div .black {
 
 }
 .photo:hover .hoveroff {
-  
   opacity: 1
 }
