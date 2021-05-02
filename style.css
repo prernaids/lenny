@@ -86,4 +86,18 @@ div .black {
   display: block;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 20px;
+  width: 65em;
+  height: 30em;
+}
+.mystory{
+  text-align: center;
+  padding-top: 2em;
+  font-weight: 700;
+}
+.story{
+  text-align: center;
+  padding-left: 10em;
+  padding-right: 10em;
+  font-weight: 560;
 }
