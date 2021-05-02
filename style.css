@@ -42,6 +42,7 @@ div .black {
   background-color: rgb(32, 32, 32);
   color: #fff;
   text-align: center;
+  margin-top: 30px;
 }
 .black .name {
   margin-top: 15%;
@@ -64,7 +65,7 @@ div .black {
   height: 700px;
   right: -150px;
   float: right;
-
+  margin-top: 30px;
 }
 
 .photo .hoveroff {
@@ -76,8 +77,13 @@ div .black {
   left: 70%;
   opacity: 0;
   transition: all 1s;
-
+  margin-top: 30px;
 }
 .photo:hover .hoveroff {
   opacity: 1
+}
+.piano img{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
