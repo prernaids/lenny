@@ -42,7 +42,7 @@ div .black {
   background-color: rgb(32, 32, 32);
   color: #fff;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .black .name {
   margin-top: 15%;
@@ -65,7 +65,7 @@ div .black {
   height: 700px;
   right: -150px;
   float: right;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .photo .hoveroff {
@@ -77,7 +77,7 @@ div .black {
   left: 70%;
   opacity: 0;
   transition: all 1s;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .photo:hover .hoveroff {
   opacity: 1
@@ -100,4 +100,13 @@ div .black {
   padding-left: 10em;
   padding-right: 10em;
   font-weight: 560;
+}
+.footer{
+   height: 400px;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
 }
