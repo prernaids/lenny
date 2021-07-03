@@ -19,6 +19,7 @@ li {
   display: block;
   float: right;
   margin-right: 20px;
+  position: sticky;
 }
 
 .logomebe {
@@ -60,11 +61,6 @@ div .black {
   width: 30%;
   float: right;
 }
-@media screen and (max-width: 600px) {
-  div.photo.firstimg {
-    flex-direction: column;
-  }
-}
 
 .piano img {
   display: block;
@@ -84,4 +80,20 @@ div .black {
   padding-left: 10em;
   padding-right: 10em;
   font-weight: 560;
+}
+
+.box {
+  padding: 30px;
+  margin: 60px;
+  background: linear-gradient(to bottom, #252783 0%, #542186 100%);
+  height: 500px;
+  color: #fff;
+}
+.box input {
+  padding: 10px;
+  margin: 20px;
+  left: 40%;
+}
+.box .mail {
+  margin: 22px;
 }
