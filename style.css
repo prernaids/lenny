@@ -97,3 +97,10 @@ div .black {
 .box .mail {
   margin: 22px;
 }
+.btn {
+  margin: 20px;
+  padding: 30px;
+  color: #fff;
+  background-color: rgb(29, 19, 87);
+  border: 3px solid black;
+}
