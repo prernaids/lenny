@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
 ol ul {
   list-style: none;
 }
@@ -19,26 +24,23 @@ li {
 .logomebe {
   display: flex;
   flex-direction: row;
-  
 }
 
 .mebe {
   text-align: left;
 }
 
-body {
-  margin: 0px;
-  font-family: "Poppins", sans-serif;
-  
-}
-
 .column {
   margin-top: 15px;
+}
+.column div {
+  min-height: 200px;
 }
 div .black {
   position: absolute;
   width: 70%;
   height: 700px;
+  top: 89px;
   background-color: rgb(32, 32, 32);
   color: #fff;
   text-align: center;
@@ -50,39 +52,21 @@ div .black {
 .black .para {
   padding: 70px;
   margin: 41px;
-}
-.black .para {
   color: white;
 }
-.photo {
-  top: -703.9px;
-  transition: all 1s
-}
-
 .photo .firstimg {
   display: flex;
-  width: 30%;
   height: 700px;
-  right: -150px;
+  width: 30%;
   float: right;
-  margin-top: 20px;
+}
+@media screen and (max-width: 600px) {
+  div.photo.firstimg {
+    flex-direction: column;
+  }
 }
 
-.photo .hoveroff {
-  position: absolute;
-  width: 30%;
-  height: 700px;
-  display: block;
-  top: 113px;
-  left: 70%;
-  opacity: 0;
-  transition: all 1s;
-  margin-top: 20px;
-}
-.photo:hover .hoveroff {
-  opacity: 1
-}
-.piano img{
+.piano img {
   display: block;
   margin-right: auto;
   margin-left: auto;
@@ -90,23 +74,14 @@ div .black {
   width: 65em;
   height: 30em;
 }
-.mystory{
+.mystory {
   text-align: center;
   padding-top: 2em;
   font-weight: 700;
 }
-.story{
+.story {
   text-align: center;
   padding-left: 10em;
   padding-right: 10em;
   font-weight: 560;
-}
-.footer{
-   height: 400px;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: black;
-   color: white;
-   text-align: center;
 }
