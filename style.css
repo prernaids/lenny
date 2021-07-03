@@ -104,3 +104,10 @@ div .black {
   background-color: rgb(29, 19, 87);
   border: 3px solid black;
 }
+.social-medias {
+  margin-top: 10px;
+}
+.social-medias a {
+  padding: 5px;
+  align-items: center;
+}
